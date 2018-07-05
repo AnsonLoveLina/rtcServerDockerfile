@@ -1,12 +1,12 @@
 #docker-apprtc
 
-Docker container for [apprtc][3]
+Docker container for [apprtc] [3]
 
 > Detailed information on developing in the webrtc github repo can be found in the WebRTC GitHub repo developer's guide.
 
 ## Install dependencies
 
-  - [Docker][2]
+  - [Docker] [2]
 
 To install docker in Ubuntu 14.04 use the commands:
 
@@ -34,6 +34,6 @@ After that open up the following address :
 
 ## More Info
 
-About apprtc: [https://appr.tc/][1]
+About apprtc: [https://appr.tc/] [1]
 
-To help improve this container [docker-apprtc][5]
+To help improve this container [docker-apprtc] [5]
