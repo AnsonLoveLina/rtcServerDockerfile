@@ -17,10 +17,10 @@ To install docker in Ubuntu 14.04 use the commands:
 
 ## Usage (no checking out)
 
-	$ docker build -t hisign.com/roomserver ./DockerfileRoomServer
+	$ docker build -t hisign.com/roomserver -f ./DockerfileRoomServer .
 	$ docker build -t hisign.com/collider .
 
-## Usage (downloading pre-built image from build)
+## Usage (building pre-built image from build)
 
 	$ docker run -it --name roomserver -P hisign.com/roomserver
 	$ docker run -it --name collider -P hisign.com/collider
