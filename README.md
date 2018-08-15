@@ -22,8 +22,8 @@ To install docker in Ubuntu 14.04 use the commands:
 
 ## Usage (building pre-built image from build)
 
-	$ docker run -it --name roomserver -P hisign.com/roomserver
-	$ docker run -it --name collider -P hisign.com/collider
+	$ docker run -it --name roomserver -p 8080:8080 hisign.com/roomserver
+	$ docker run -it --name collider -p 8089:8089 hisign.com/collider
 	
 ## Accessing the web app:
 
@@ -35,5 +35,3 @@ After that open up the following address :
 ## More Info
 
 About apprtc: [https://appr.tc/] [1]
-
-To help improve this container [docker-apprtc] [5]
